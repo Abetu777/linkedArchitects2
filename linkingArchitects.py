@@ -1,6 +1,8 @@
 from pyvis.network import Network
 import pandas as pd
 
+
+
 df = pd.read_csv('mapArchitects2.csv', index_col=0)
 df = df.drop('建築家')
 df = df.drop('建築家', axis=1)
